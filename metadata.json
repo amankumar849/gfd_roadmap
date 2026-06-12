@@ -1,0 +1,6 @@
+{
+  "name": "GFD RoadMap",
+  "description": "An interactive, fully responsive educational roadmap platform helping students master GATE preparation, Full Stack Development, and DSA with progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
