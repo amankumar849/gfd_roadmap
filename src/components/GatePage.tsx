@@ -242,6 +242,33 @@ export const GatePage: React.FC<GatePageProps> = ({ initialTargetTopicId }) => {
                 </p>
               </div>
 
+              {/* GATE PYQ Drive Card */}
+              <div className="text-left space-y-2">
+                <h4 className="text-xs font-extrabold uppercase tracking-wide text-slate-400 flex items-center gap-1">
+                  <BookOpen size={13} className="text-emerald-500" /> GATE Previous Year Questions
+                </h4>
+                
+                <a id="btn-gate-pyq-drive"
+                  href="https://drive.google.com/file/d/1dYdUZfkrgrm7-12GdA1J8Ul75f2oKNMu/view?usp=drivesdk"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center justify-between p-3 rounded-xl border border-emerald-500/20 bg-emerald-500/5 hover:bg-emerald-500/10 transition-colors group"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[9px] font-black uppercase text-emerald-600 px-1.5 py-0.5 rounded-sm bg-emerald-500/10 font-mono">
+                      PDF
+                    </span>
+                    <div className="text-left">
+                      <p className="text-xs font-semibold text-slate-700 dark:text-slate-200 group-hover:text-emerald-600">
+                        All GATE CSE Previous Year Questions (Topic-wise)
+                      </p>
+                      <p className="text-[10px] text-slate-400">Google Drive Folder</p>
+                    </div>
+                  </div>
+                  <ExternalLink size={14} className="text-slate-400 group-hover:text-emerald-600" />
+                </a>
+              </div>
+
               {/* Reference Resources */}
               <div className="text-left space-y-3">
                 <h4 className="text-xs font-extrabold uppercase tracking-wide text-slate-400 flex items-center gap-1">
@@ -326,7 +353,7 @@ export const GatePage: React.FC<GatePageProps> = ({ initialTargetTopicId }) => {
                     value={noteText}
                     onChange={(e) => setNoteText(e.target.value)}
                     placeholder="Write explanations, formulas, or standard definitions. Notes are synchronized automatically..."
-                    className="w-full text-xs p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-hidden"
+                    className="w-full text-white p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-hidden"
                   />
                   <div className="flex items-center justify-between">
                     <span className="text-[10px] text-slate-400 font-mono">Notes are saved locally.</span>

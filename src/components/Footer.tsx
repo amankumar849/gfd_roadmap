@@ -104,11 +104,8 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab }) => {
 
         <div className="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-center">
           <p className="text-[10px] text-slate-400 font-mono">
-            © {new Date().getFullYear()} GFD RoadMap. All rights reserved. Built for engineering excellence.
-          </p>
-          <div className="flex items-center gap-1 text-[10px] text-slate-400 font-mono">
             <span>Create By ( Aman Gupta )</span>
-          </div>
+          </p>
         </div>
       </div>
     </footer>

@@ -50,24 +50,21 @@ export const HomePage: React.FC<HomePageProps> = ({ setCurrentTab }) => {
 
   const testimonials = [
     {
-      name: 'Priya Sharma',
+      name: 'Riya Kumari',
       role: 'Syllabus Topper (GATE CSE)',
       text: 'The GATE CSE timeline was incredibly organized! Completing DBMS and Theory of Computation in successions gave me absolute confidence in fundamental concepts. Highly recommended.',
-      rating: 5,
       avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120&h=120'
     },
     {
-      name: 'Rohan Deshmukh',
+      name: 'Himanshu Tiwari',
       role: 'Full Stack Engineer @ Razorpay',
       text: 'Entering Full Stack web was messy until I found GFD RoadMap. The curriculum starts clean with semantic layouts and moves into Docker orchestrations in perfect order.',
-      rating: 5,
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120&h=120'
     },
     {
-      name: 'Aiden Vance',
+      name: 'Subham Raj',
       role: 'Software Engineer @ Amazon',
       text: 'The interactive visual structures for trees, stacks, and graphs are marvelous. Playing with insertion steps made recursive BST operations make absolute sense.',
-      rating: 5,
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120&h=120'
     }
   ];
@@ -105,7 +102,7 @@ export const HomePage: React.FC<HomePageProps> = ({ setCurrentTab }) => {
             <button
               id="hero-cta-start"
               onClick={() => setCurrentTab('about')}
-              className="w-full sm:w-auto px-6 py-3.5 text-sm font-bold text-slate-700 dark:text-slate-200 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/80 dark:hover:bg-slate-750/90 rounded-xl cursor-pointer transition-colors"
+              className="w-full sm:w-auto px-6 py-3.5 text-sm font-bold text-white bg-blue-300 hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 rounded-xl flex items-center justify-center gap-2 group shadow-lg shadow-blue-500/20 cursor-pointer transition-all duration-300 transform hover:-translate-y-0.5"
             >
               Why GFD RoadMap?
             </button>

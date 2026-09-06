@@ -93,6 +93,61 @@ export const DsaPage: React.FC<DsaPageProps> = ({ initialTargetTopicId }) => {
               <span>GeeksforGeeks Problems Practice</span>
               <ExternalLink size={12} className="text-slate-400 group-hover:text-emerald-500 transition-colors" />
             </a>
+            <a
+              id="btn-dsa-playlist"
+              href="https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&si=7ZD9RkWo0iBvX-gu"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-50 dark:bg-slate-950 hover:bg-slate-100 dark:hover:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl transition-all hover:scale-[1.01] shadow-xs cursor-pointer group"
+            >
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+              <span>DSA Playlist 1 (YouTube)</span>
+              <ExternalLink size={12} className="text-slate-400 group-hover:text-red-500 transition-colors" />
+            </a>
+            <a
+              id="btn-dsa-playlist"
+              href="https://youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt&si=gxxqvj3cOrRrBOyI"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-50 dark:bg-slate-950 hover:bg-slate-100 dark:hover:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl transition-all hover:scale-[1.01] shadow-xs cursor-pointer group"
+            >
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+              <span>DSA Playlist 2 (YouTube)</span>
+              <ExternalLink size={12} className="text-slate-400 group-hover:text-red-500 transition-colors" />
+            </a>
+            <a
+              id="btn-dsa-playlist"
+              href="https://youtube.com/playlist?list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01&si=FlBoyJXRa1xZ7nHm"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-50 dark:bg-slate-950 hover:bg-slate-100 dark:hover:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl transition-all hover:scale-[1.01] shadow-xs cursor-pointer group"
+            >
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+              <span>DSA Playlist 3 (YouTube)</span>
+              <ExternalLink size={12} className="text-slate-400 group-hover:text-red-500 transition-colors" />
+            </a>
+            <a
+              id="btn-dsa-playlist"
+              href="https://youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2&si=5A0YBIKkQxhyEtP1"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-50 dark:bg-slate-950 hover:bg-slate-100 dark:hover:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl transition-all hover:scale-[1.01] shadow-xs cursor-pointer group"
+            >
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+              <span>DSA Patterns Playlist (YouTube)</span>
+              <ExternalLink size={12} className="text-slate-400 group-hover:text-red-500 transition-colors" />
+            </a>
+            <a
+              id="btn-dsa-playlist"
+              href="https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvVrY8/htmlview?usp=sharing&pru=AAABoJpHMa0*GYD-8zKppT1GPPE7TEdVVQ"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-50 dark:bg-slate-950 hover:bg-slate-100 dark:hover:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl transition-all hover:scale-[1.01] shadow-xs cursor-pointer group"
+            >
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+              <span>DSA Patterns Sheet</span>
+              <ExternalLink size={12} className="text-slate-400 group-hover:text-red-500 transition-colors" />
+            </a>
           </div>
         </div>
       </div>

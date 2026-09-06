@@ -308,7 +308,8 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 placeholder="New element..."
-                className="flex-1 text-xs px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-850 border border-slate-300 dark:border-slate-700 focus:outline-hidden focus:border-blue-600 text-slate-800 dark:text-slate-100"
+                style={{ color: '#1e293b', backgroundColor: '#f1f5f9', WebkitTextFillColor: '#1e293b' }}
+                className="flex-1 text-xs px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 focus:outline-hidden focus:border-blue-600"
               />
               <button
                 id="btn-array-add"
@@ -326,7 +327,8 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
                 value={searchTarget}
                 onChange={(e) => setSearchTarget(e.target.value)}
                 placeholder="Find value..."
-                className="flex-1 text-xs px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-850 border border-slate-300 dark:border-slate-700 focus:outline-hidden focus:border-blue-600 text-slate-800 dark:text-slate-100"
+                style={{ color: '#1e293b', backgroundColor: '#f1f5f9', WebkitTextFillColor: '#1e293b' }}
+                className="flex-1 text-xs px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 focus:outline-hidden focus:border-blue-600"
               />
               <button
                 id="btn-array-search"
@@ -393,12 +395,13 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
               value={strVal}
               onChange={(e) => {
                 if (!isStringReversing) {
-                  setStrVal(e.target.value.toUpperCase().slice(0, 15));
+                  setStrVal(e.target.value.toUpperCase().slice(0, 10));
                 }
               }}
               disabled={isStringReversing}
               placeholder="ENTER WORDS"
-              className="text-xs px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-850 border border-slate-300 dark:border-slate-700 text-center uppercase tracking-widest outline-hidden focus:border-pink-500 font-mono disabled:opacity-50 text-slate-800 dark:text-slate-100"
+              style={{ color: '#1e293b', backgroundColor: '#f1f5f9', WebkitTextFillColor: '#1e293b' }}
+              className="w-64 md:w-72 text-xs px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-center uppercase tracking-wide outline-hidden focus:border-pink-500 font-mono disabled:opacity-50"
             />
             <button
               id="btn-string-reverse"
@@ -429,7 +432,7 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
                   animate={{ opacity: 1, x: 0 }}
                   className="flex border border-slate-300 dark:border-slate-700 rounded-lg overflow-hidden font-mono text-xs text-center shadow-xs"
                 >
-                  <div className="bg-slate-200 dark:bg-slate-850 px-3 py-2 font-bold text-slate-700 dark:text-slate-300">
+                  <div className="bg-slate-200 dark:bg-slate-850 px-3 py-2 font-bold text-slate-700 dark:text-black">
                     {val}
                   </div>
                   <div className="bg-blue-600/10 dark:bg-cyan-400/10 text-blue-600 dark:text-cyan-400 px-2 py-2 font-semibold flex items-center">
@@ -520,7 +523,8 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder="Val..."
-              className="w-20 text-xs px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-850 border border-slate-300 dark:border-slate-700 focus:outline-hidden text-slate-800 dark:text-slate-100"
+              style={{ color: '#1e293b', backgroundColor: '#f1f5f9', WebkitTextFillColor: '#1e293b' }}
+              className="w-20 text-xs px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 focus:outline-hidden"
             />
             <button
               id="btn-stack-push"
@@ -592,7 +596,8 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder="Val..."
-              className="w-20 text-xs px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-850 border border-slate-300 dark:border-slate-700 focus:outline-hidden text-slate-800 dark:text-slate-100"
+              style={{ color: '#1e293b', backgroundColor: '#f1f5f9', WebkitTextFillColor: '#1e293b' }}
+              className="w-20 text-xs px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 focus:outline-hidden"
             />
             <button
               id="btn-queue-enqueue"
@@ -689,13 +694,14 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
           </div>
 
           <div className="flex gap-2 justify-center max-w-sm mx-auto">
-            <input
+           <input
               id="bst-search-input"
               type="text"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder="e.g., 60, 20, 80"
-              className="flex-1 text-xs px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-850 border border-slate-300 dark:border-slate-700 focus:outline-hidden text-slate-800 dark:text-slate-100"
+              style={{ color: '#1e293b', backgroundColor: '#f1f5f9', WebkitTextFillColor: '#1e293b' }}
+              className="flex-1 text-xs px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 focus:outline-hidden"
             />
             <button
               id="btn-bst-search"
@@ -753,8 +759,10 @@ export const InteractiveVisualizer: React.FC<VisualizerProps> = ({ symbol }) => 
               🚀 Simulate BFS Layer Traversal
             </button>
 
-            <div className="flex flex-col gap-1 w-full text-xs font-mono text-slate-500 mt-2 bg-slate-100/50 dark:bg-slate-850/40 p-2.5 rounded-lg border border-slate-200 dark:border-slate-800">
-              <div>Queue: [ {graphQueue.join(', ')} ]</div>
+            <div
+              style={{ backgroundColor: '#0f172a', color: '#38bdf8', borderColor: '#1e293b' }}
+              className="flex flex-col gap-1 w-full text-xs font-mono mt-2 p-2.5 rounded-lg border"
+            >
               <div>Visited Path: [ {graphVisited.join(' -> ')} ]</div>
             </div>
           </div>
