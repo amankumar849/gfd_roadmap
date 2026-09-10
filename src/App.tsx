@@ -1,3 +1,4 @@
+import ChatWidget from "./components/ChatWidget";
 import React, { useState } from 'react';
 import { ThemeProvider } from './components/ThemeContext';
 import { ProgressProvider, useProgress } from './components/ProgressContext';
@@ -113,6 +114,8 @@ function AppContent() {
 
       {/* Persistent Floor Footer */}
       <Footer setCurrentTab={handleTabChange} />
+       <Footer setCurrentTab={handleTabChange} />
+      <ChatWidget />
     </div>
   );
 }
