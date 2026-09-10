@@ -353,7 +353,7 @@ export const GatePage: React.FC<GatePageProps> = ({ initialTargetTopicId }) => {
                     value={noteText}
                     onChange={(e) => setNoteText(e.target.value)}
                     placeholder="Write explanations, formulas, or standard definitions. Notes are synchronized automatically..."
-                    className="w-full text-white p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-hidden"
+                    className="w-full text-slate-800 dark:text-white p-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:outline-hidden"
                   />
                   <div className="flex items-center justify-between">
                     <span className="text-[10px] text-slate-400 font-mono">Notes are saved locally.</span>
