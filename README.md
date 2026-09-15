@@ -1,6 +1,5 @@
 # 🚀 GFD Roadmap
 
-
 > **A practical roadmap to master GATE, Full Stack Development, and DSA — all in one place.**
 
 **GFD Roadmap** is an interactive learning platform designed to help students and aspiring developers organize their preparation journey across **GATE, Full Stack Development, and Data Structures & Algorithms (DSA)**.
