@@ -97,7 +97,7 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab }) => {
               </a>
             </div>
             <span className="text-[10px] text-slate-400 font-mono mt-1 leading-relaxed">
-              Serving premium education structures offline.
+              
             </span>
           </div>
         </div>
