@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab }) => {
           {/* Social connections */}
           <div className="flex flex-col gap-2.5">
             <h5 className="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-1">
-              Join Our Student Circle
+              Join My Circle
             </h5>
             <div className="flex items-center gap-3">
               <a
