@@ -113,7 +113,7 @@ function AppContent() {
       </main>
 
       {/* Persistent Floor Footer */}
-      <Footer setCurrentTab={handleTabChange} />
+      
        <Footer setCurrentTab={handleTabChange} />
       <ChatWidget />
     </div>
